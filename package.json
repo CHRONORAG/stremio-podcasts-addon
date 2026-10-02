@@ -1,0 +1,20 @@
+{
+  "name": "stremio-podcasts-addon",
+  "version": "2.1.4",
+  "description": "Stremio addon: podcasts from gpodder.net and Spreaker",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "rss-parser": "^3.13.0",
+    "stremio-addon-sdk": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
